@@ -15,6 +15,10 @@ export class AppController {
   getInfo(): string {
     return this.appService.ShowInfo();
   }
+  @Get('/showGit')
+  getGit(): string {
+    return this.appService.Github();
+  }
 
   @Get('/showJson')
   getJson() {

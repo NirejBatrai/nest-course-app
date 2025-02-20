@@ -12,8 +12,8 @@ export class AppService {
   ShowInfo(): string {
     return 'Hello!, I am Chuwawa, I am 8 years old';
   }
-  Github(): string {
-    return 'Git and Github using';
+  PostMan(): string {
+    return 'we use postman';
   }
   getJson() {
     return {

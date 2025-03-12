@@ -20,6 +20,7 @@ export class AppService {
       name: 'nil',
       lastname: 'uzuma',
       age: 12,
+      version: process.env.API_VERSION,
     };
   }
 
